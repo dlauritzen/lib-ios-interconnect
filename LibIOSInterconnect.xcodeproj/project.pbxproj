@@ -33,6 +33,8 @@
 		B787AF4316A1C0A000A1AC09 /* LibIOSInterconnect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibIOSInterconnect.m; sourceTree = "<group>"; };
 		B787AF4A16A1C3AD00A1AC09 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		B787AF5516A1C45B00A1AC09 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		B787AF5616A1C50C00A1AC09 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
+		B787AF5716A1CCFF00A1AC09 /* CREDITS.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CREDITS.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,8 @@
 				B787AF5516A1C45B00A1AC09 /* .gitignore */,
 				B787AF4016A1C0A000A1AC09 /* LibIOSInterconnect-Prefix.pch */,
 				B787AF4A16A1C3AD00A1AC09 /* README.md */,
+				B787AF5616A1C50C00A1AC09 /* LICENSE.md */,
+				B787AF5716A1CCFF00A1AC09 /* CREDITS.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
