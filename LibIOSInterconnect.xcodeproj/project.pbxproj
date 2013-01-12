@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B787AF3D16A1C0A000A1AC09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B787AF3C16A1C0A000A1AC09 /* Foundation.framework */; };
+		B787AF4216A1C0A000A1AC09 /* LibIOSInterconnect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B787AF4116A1C0A000A1AC09 /* LibIOSInterconnect.h */; };
+		B787AF4416A1C0A000A1AC09 /* LibIOSInterconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = B787AF4316A1C0A000A1AC09 /* LibIOSInterconnect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B787AF3716A1C0A000A1AC09 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				B787AF4216A1C0A000A1AC09 /* LibIOSInterconnect.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B787AF3916A1C0A000A1AC09 /* libLibIOSInterconnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibIOSInterconnect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B787AF3C16A1C0A000A1AC09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B787AF4016A1C0A000A1AC09 /* LibIOSInterconnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibIOSInterconnect-Prefix.pch"; sourceTree = "<group>"; };
+		B787AF4116A1C0A000A1AC09 /* LibIOSInterconnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibIOSInterconnect.h; sourceTree = "<group>"; };
+		B787AF4316A1C0A000A1AC09 /* LibIOSInterconnect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibIOSInterconnect.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B787AF3616A1C0A000A1AC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B787AF3D16A1C0A000A1AC09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B787AF2E16A1C0A000A1AC09 = {
+			isa = PBXGroup;
+			children = (
+				B787AF3E16A1C0A000A1AC09 /* LibIOSInterconnect */,
+				B787AF3B16A1C0A000A1AC09 /* Frameworks */,
+				B787AF3A16A1C0A000A1AC09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B787AF3A16A1C0A000A1AC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B787AF3916A1C0A000A1AC09 /* libLibIOSInterconnect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B787AF3B16A1C0A000A1AC09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B787AF3C16A1C0A000A1AC09 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B787AF3E16A1C0A000A1AC09 /* LibIOSInterconnect */ = {
+			isa = PBXGroup;
+			children = (
+				B787AF4116A1C0A000A1AC09 /* LibIOSInterconnect.h */,
+				B787AF4316A1C0A000A1AC09 /* LibIOSInterconnect.m */,
+				B787AF3F16A1C0A000A1AC09 /* Supporting Files */,
+			);
+			path = LibIOSInterconnect;
+			sourceTree = "<group>";
+		};
+		B787AF3F16A1C0A000A1AC09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B787AF4016A1C0A000A1AC09 /* LibIOSInterconnect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B787AF3816A1C0A000A1AC09 /* LibIOSInterconnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B787AF4716A1C0A000A1AC09 /* Build configuration list for PBXNativeTarget "LibIOSInterconnect" */;
+			buildPhases = (
+				B787AF3516A1C0A000A1AC09 /* Sources */,
+				B787AF3616A1C0A000A1AC09 /* Frameworks */,
+				B787AF3716A1C0A000A1AC09 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibIOSInterconnect;
+			productName = LibIOSInterconnect;
+			productReference = B787AF3916A1C0A000A1AC09 /* libLibIOSInterconnect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B787AF3016A1C0A000A1AC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Dallin Lauritzen";
+			};
+			buildConfigurationList = B787AF3316A1C0A000A1AC09 /* Build configuration list for PBXProject "LibIOSInterconnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B787AF2E16A1C0A000A1AC09;
+			productRefGroup = B787AF3A16A1C0A000A1AC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B787AF3816A1C0A000A1AC09 /* LibIOSInterconnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B787AF3516A1C0A000A1AC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B787AF4416A1C0A000A1AC09 /* LibIOSInterconnect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B787AF4516A1C0A000A1AC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B787AF4616A1C0A000A1AC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B787AF4816A1C0A000A1AC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LibIOSInterconnect.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibIOSInterconnect/LibIOSInterconnect-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B787AF4916A1C0A000A1AC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LibIOSInterconnect.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibIOSInterconnect/LibIOSInterconnect-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B787AF3316A1C0A000A1AC09 /* Build configuration list for PBXProject "LibIOSInterconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B787AF4516A1C0A000A1AC09 /* Debug */,
+				B787AF4616A1C0A000A1AC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B787AF4716A1C0A000A1AC09 /* Build configuration list for PBXNativeTarget "LibIOSInterconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B787AF4816A1C0A000A1AC09 /* Debug */,
+				B787AF4916A1C0A000A1AC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B787AF3016A1C0A000A1AC09 /* Project object */;
+}
