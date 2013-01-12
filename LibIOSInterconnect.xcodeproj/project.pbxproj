@@ -31,6 +31,8 @@
 		B787AF4016A1C0A000A1AC09 /* LibIOSInterconnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibIOSInterconnect-Prefix.pch"; sourceTree = "<group>"; };
 		B787AF4116A1C0A000A1AC09 /* LibIOSInterconnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibIOSInterconnect.h; sourceTree = "<group>"; };
 		B787AF4316A1C0A000A1AC09 /* LibIOSInterconnect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibIOSInterconnect.m; sourceTree = "<group>"; };
+		B787AF4A16A1C3AD00A1AC09 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		B787AF5516A1C45B00A1AC09 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,9 @@
 		B787AF3F16A1C0A000A1AC09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B787AF5516A1C45B00A1AC09 /* .gitignore */,
 				B787AF4016A1C0A000A1AC09 /* LibIOSInterconnect-Prefix.pch */,
+				B787AF4A16A1C3AD00A1AC09 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
