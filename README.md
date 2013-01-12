@@ -12,6 +12,8 @@ I ask community members and developers to assist in the gathering, documentation
 
 Conversely, any developer can opt out of inclusion in this library by emailing me with a request for exclusion.
 
+The GitHub [project wiki](https://github.com/dlauritzen/lib-ios-interconnect/wiki) will be the central storage location of all the scheme and library documentation. Please use those pages to contribute to the documentation. If you have any comments about the code, use the issue tracker or comment directly in the repository.
+
 ## Updates
 
 Library updates will consist of bug fixes and changes to the scheme database. I encourage all developers using this library to subscribe to the project or update their local repositories often to receive the updates in a timely fashion.

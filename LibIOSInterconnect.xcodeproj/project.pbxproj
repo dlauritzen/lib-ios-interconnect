@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B787AF3916A1C0A000A1AC09 /* libLibIOSInterconnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibIOSInterconnect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B787AF3916A1C0A000A1AC09 /* libIOSInterconnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIOSInterconnect.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B787AF3C16A1C0A000A1AC09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B787AF4016A1C0A000A1AC09 /* LibIOSInterconnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibIOSInterconnect-Prefix.pch"; sourceTree = "<group>"; };
 		B787AF4116A1C0A000A1AC09 /* LibIOSInterconnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibIOSInterconnect.h; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		B787AF3A16A1C0A000A1AC09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B787AF3916A1C0A000A1AC09 /* libLibIOSInterconnect.a */,
+				B787AF3916A1C0A000A1AC09 /* libIOSInterconnect.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +77,8 @@
 		B787AF3E16A1C0A000A1AC09 /* LibIOSInterconnect */ = {
 			isa = PBXGroup;
 			children = (
+				B787AF5816A1CF9500A1AC09 /* Classes */,
+				B787AF5916A1CF9500A1AC09 /* Data */,
 				B787AF4116A1C0A000A1AC09 /* LibIOSInterconnect.h */,
 				B787AF4316A1C0A000A1AC09 /* LibIOSInterconnect.m */,
 				B787AF3F16A1C0A000A1AC09 /* Supporting Files */,
@@ -88,12 +90,26 @@
 			isa = PBXGroup;
 			children = (
 				B787AF5516A1C45B00A1AC09 /* .gitignore */,
-				B787AF4016A1C0A000A1AC09 /* LibIOSInterconnect-Prefix.pch */,
-				B787AF4A16A1C3AD00A1AC09 /* README.md */,
-				B787AF5616A1C50C00A1AC09 /* LICENSE.md */,
 				B787AF5716A1CCFF00A1AC09 /* CREDITS.md */,
+				B787AF4016A1C0A000A1AC09 /* LibIOSInterconnect-Prefix.pch */,
+				B787AF5616A1C50C00A1AC09 /* LICENSE.md */,
+				B787AF4A16A1C3AD00A1AC09 /* README.md */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B787AF5816A1CF9500A1AC09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B787AF5916A1CF9500A1AC09 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,7 +129,7 @@
 			);
 			name = LibIOSInterconnect;
 			productName = LibIOSInterconnect;
-			productReference = B787AF3916A1C0A000A1AC09 /* libLibIOSInterconnect.a */;
+			productReference = B787AF3916A1C0A000A1AC09 /* libIOSInterconnect.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +224,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LibIOSInterconnect/LibIOSInterconnect-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IOSInterconnect;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -220,7 +236,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LibIOSInterconnect/LibIOSInterconnect-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IOSInterconnect;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
